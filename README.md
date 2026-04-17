@@ -1,6 +1,7 @@
 # Cockpit-camera-fix
 This script fixes the cockpit camera view in various aircrafts. A total of 19 aircraft are supported - 14 Community Contributed and 5 Official aircraft.
 
+NOTE: MAKE SURE TO RESET CAMERA ONCE BEFORE YOU ENTER COCKPIT VIEW OTHERWISE THE CHANGE WON'T LOAD.
 <img width="1919" height="542" alt="image" src="https://github.com/user-attachments/assets/8103dab7-a092-49be-b853-5dc79980f91f" />
 
 **List of Aircraft Supported**
