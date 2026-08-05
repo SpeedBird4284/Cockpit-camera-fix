@@ -1,11 +1,16 @@
 // ==UserScript==
 // @name         Cockpit cam fix
 // @namespace    https://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  This script fixes the cockpit camera view in various aircraft.
 // @author       SpeedBird
 // @match        https://www.geo-fs.com/geofs.php
 // @match        https://www.geo-fs.com/geofs.php?v=3.9
+// @match        https://www.geo-fs.com/geofs.php*
+// @match        https://beta.geo-fs.com/geofs.php
+// @match        https://play.geofs.com/*
+// @match        http://*/geofs.php*
+// @match        https://*/geofs.php*
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
@@ -24,6 +29,10 @@
             orientation: { absolute: [0, -12, 0] },
         }],
         [5086, {
+            position: { offset: [0.15, 0, 0.15] },
+            orientation: { absolute: [0, -12, 0] },
+        }],
+        [2870, {
             position: { offset: [0.15, 0, 0.15] },
             orientation: { absolute: [0, -12, 0] },
         }],
